@@ -5,13 +5,9 @@ fetch('portfolio.json').then(function (response) {
 }).then(function (data) {
     data.projects.forEach(function (project) {
     portfolioDisplay.innerHTML += 
-        `<div class=" flex flex-col gap-2 py-5 px-20 h-screen" >
+        `<div class="flex flex-col gap-2 py-5 px-20 h-screen">
 
-            <div style="width:100%; 
-                height:100%; 
-                border:solid;
-                background-image: url("${project.image}");">
-
+            <div class="w-full h-full bg-cover rounded-sm" style='background-image: url("${project.image}");'>
             </div>
 
             <div class= "flex flex-wrap justify-between"> 
@@ -25,5 +21,3 @@ fetch('portfolio.json').then(function (response) {
             </div>`
     })
 }) 
-
-// <img class="object-contain w-full" src="${project.image}"> 
