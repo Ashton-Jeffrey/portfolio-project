@@ -1,6 +1,6 @@
 const portfolioDisplay = document.querySelector('.portfolio')
 
-fetch('portfolio.json').then(function (response) {
+fetch('js/portfolio.json').then(function (response) {
     return response.json()
 }).then(function (data) {
     data.projects.forEach(function (project) {
