@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashton Jeffrey Portfolio</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="portfolio.js" defer></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body class=" Libre bg-zinc-200">
+    <nav class="flex justify-between items-end gap-5 px-5 py-6">
+        <h1 id="top" class=" text-2xl font-bold">Ashton Jeffrey</h1>
+        <span class="text-base">Currently a Junior Developer at <span class="text-pink-500">XXXX</span></span>
+        <span class="text-base">Bristol, England</span>
+            <div class="flex flex-end text-base gap-4">
+                <a class="hover:text-pink-500" href="#selected-works">Selected Works</a> 
+                <a class="hover:text-pink-500" href="#intro">Intro</a> 
+                <a class="hover:text-pink-500" href="#get-in-touch">Get In Touch</a> 
+            </div>
+    </nav>
+
+    <a href="#top"> <i class="go-to-top fixed bottom-5 right-5 text-4xl text-pink-500 fa-solid fa-arrow-up" title="go-to-top-of-page"></i></a>
+
+    <header>
+        <div class="flex items-center px-5 py-6 h-screen"> 
+            <h2 class="flex flex-col self-end basis-1/4 pb-20 text-9xl">
+                <span>Junior</span>
+                <span>Developer</span>
+            </h2>
+            <div class="flex flex-col gap-y-10 max-w-60 basis-1/4 text-xs">
+                <p class="text-pink-500 font-bold">Available for freelance projects</p>
+                <p>Small text about me Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime minus quod repellat facere sit? Illum eveniet iure quos optio iusto officiis omnis, nesciunt, dignissimos quasi temporibus odit! Nulla, nihil odio!</p>
+            </div>
+            <img class="basis-1/2 max-h-svh object-contain py-5 rounded-sm" src="assets/ashton-jeffrey.jpg" alt=""> 
+        </div>
+    </header>
+
+    <main>
+        <div class="gap-6 p-5 h-screen">
+            <h3 id="intro" class="text-9xl">
+                Intro
+            </h3>
+ <!-- will need to add a media query for gap to display better on larger screen -->
+            <div class="flex flex-col gap-28"> 
+
+                <div class="flex gap-40">
+                    <p class="basis-1/4 self-center text-xs">Small text left Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati incidunt cupiditate delectus quo voluptate. Perferendis dolor at deleniti corrupti earum porro optio ad.</p>
+                    <p class="basis-3/4 text-6xl">Large text about me Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime minus quod repellat facere sit?   </p>
+                </div>
+
+                <div class="flex gap-40">
+                    <div class="basis-1/4 text-lg font-extrabold">
+                        Core Tools
+                    </div>
+
+                    <div class="basis-3/4 flex gap-2 pr-6">
+                        <section>
+                            <h4 class="text-lg font-bold">HTML/CSS</h4>
+                            <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ut aliquam vero totam iste consequuntur praesentium quasi eveniet ipsum, nobis mollitia quibusdam cum eaque cumque error quae reprehenderit soluta sequi.</p>
+                        </section>
+                        <section>
+                            <h4 class="text-lg font-bold">Javascript</h4>
+                            <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ut aliquam vero totam iste consequuntur praesentium quasi eveniet ipsum, nobis mollitia quibusdam cum eaque cumque error quae reprehenderit soluta sequi.</p>
+                        </section>
+                        <section>
+                            <h4 class="text-lg font-bold">React</h4>
+                            <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ut aliquam vero totam iste consequuntur praesentium quasi eveniet ipsum, nobis mollitia quibusdam cum eaque cumque error quae reprehenderit soluta sequi.</p>
+                        </section>
+                        <section>
+                            <h4 class="text-lg font-bold">SQL</h4>
+                            <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ut aliquam vero totam iste consequuntur praesentium quasi eveniet ipsum, nobis mollitia quibusdam cum eaque cumque error quae reprehenderit soluta sequi.</p>
+                        </section>
+                    </div>   
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="flex justify-end p-5 h-screen"> 
+            <h3 id="selected-works" class="flex flex-col justify-center items-end text-9xl">
+                <span>Selected</span>
+                <span>Works</span>
+            </h3>
+        </div>
+
+        <div class="portfolio">  
+        </div>
+    </main>
+
+    <footer class="bg-black flex flex-col gap-48 px-5 py-6 h-screen">
+        <div class="flex flex-wrap justify-between gap-5">
+            <h3 id="get-in-touch" class="flex flex-col basis-100 text-9xl text-zinc-200 pb-48">
+                <span>Get</span>
+                <span>In Touch</span>
+            </h3>
+
+            <div class="flex flex-col justify-end gap-5 text-lg">
+                <p class="text-zinc-200">For any collaborative projects or inquiries feel free to reach out to me.</p>
+                <a class="text-zinc-200 hover:text-pink-500" href="mailto:ashtonsjeffrey@gmail.com" target="_blank">ashtonsjeffrey@gmail.com</a>
+            </div>
+
+            <div class="justify-self-end">
+                <p class="text-pink-500 pr-9 pt-20 text-xs font-bold">Available for freelance projects</p>
+            </div>
+        </div>
+
+
+        <div class="flex justify-between items-end">
+            <p class="text-zinc-200 text-xs">© Copyright Ashton Jeffrey 2024</p> 
+            <div class="flex gap-5 pr-9 text-2xl">
+                <a class="text-zinc-200 hover:text-pink-500" href="https://www.linkedin.com/in/ashton-jeffrey/" target="_blank" title="icon-button-to-linkedin">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a class="text-zinc-200 hover:text-pink-500" href="https://github.com/Ashton-Jeffrey" target="_blank" title="icon-button-to-github">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+           
+        </div>
+        
+    </footer>
+    
+</body>
+</html>

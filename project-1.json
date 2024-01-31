@@ -1,0 +1,35 @@
+{
+    "projects": [
+      {
+        "title": "Project 1",
+        "description": "Project description about me Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime minus quod repellat facere sit? Illum eveniet iure quos optio iusto   officiis omnis, nesciunt, dignissimos quasi temporibus odit! Nulla, nihil odio!",
+        "deliverables": "highlight project outcomes",
+        "image": "./assets/ux-brainstorm.jpg",
+        "link":  "https://github.com/Ashton-Jeffrey/portfolio-project"
+      },
+      
+      {
+        "title": "Project 2",
+        "description": "Project 2 description about me Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime minus quod repellat facere sit? Illum eveniet iure quos optio iusto   officiis omnis, nesciunt, dignissimos quasi temporibus odit! Nulla, nihil odio!",
+        "deliverables": "highlight project 2 outcomes",
+        "image": "./assets/mobile-app.jpg",
+        "link":  "https://github.com/Ashton-Jeffrey/portfolio-project"
+      },
+      
+      {
+        "title": "Project 3",
+        "description": "Project 3 description about me Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime minus quod repellat facere sit? Illum eveniet iure quos optio iusto   officiis omnis, nesciunt, dignissimos quasi temporibus odit! Nulla, nihil odio!",
+        "deliverables": "highlight project 3 outcomes",
+        "image": "./assets/pencils.jpg",
+        "link":  "https://github.com/Ashton-Jeffrey/portfolio-project"
+      },
+
+      {
+        "title": "Project 4",
+        "description": "Project 4 description about me Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime minus quod repellat facere sit? Illum eveniet iure quos optio iusto   officiis omnis, nesciunt, dignissimos quasi temporibus odit! Nulla, nihil odio!",
+        "deliverables": "highlight project 4 outcomes",
+        "image": "./assets/sticky-notes.jpg",
+        "link":  "https://github.com/Ashton-Jeffrey/portfolio-project"
+      }
+    ]
+  }
