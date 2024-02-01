@@ -6,7 +6,7 @@ fetch('js/portfolio.json').then(function (response) {
     data.projects.forEach(function (project) {
     portfolioDisplay.innerHTML += 
     `<div class="p-5 min-h-screen">
-        <h3 class="text-8xl pb-10">
+        <h3 class="text-8xl pb-10" id="#${project.projectno}">
         ${project.title}
         </h3>
         <div class="flex gap-52"> 

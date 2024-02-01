@@ -16,7 +16,7 @@ fetch('js/portfolio.json').then(function (response) {
                     <p class="text-xs font-bold">Deliverables</p>
                     <p class="text-sm font-bold">${project.deliverables}</p>
                 </div>
-                <a class="text-sm font-bold hover:text-pink-500" href="#">View Project</a>
+                <a class="text-sm font-bold hover:text-pink-500" href="/portfolio.html#${project.projectno}">View Project</a>
                 </div>
             </div>`
     })
