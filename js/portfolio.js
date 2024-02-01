@@ -35,7 +35,9 @@ fetch('js/portfolio.json').then(function (response) {
     </div>`    
     
     }) 
-    const scrollTarget = document.querySelector(`#${requestedProject}`)
-    scrollTarget.scrollIntoView()
+    setTimeout(() => {
+        const scrollTarget = document.querySelector(`#${requestedProject}`)
+        scrollTarget.scrollIntoView()
+      }, 1);
 }) 
 
