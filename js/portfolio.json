@@ -1,40 +1,35 @@
 {
-    "projects": [
-      {
-        "title": "Project 1",
-        "description": "Project description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime minus quod repellat facere sit? Illum eveniet iure quos optio iusto   officiis omnis, nesciunt, dignissimos quasi temporibus odit! Nulla, nihil odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam obcaecati quisquam commodi perspiciatis. Sit at quis quasi recusandae, ab voluptate consectetur eos similique minus, nemo non odit officia error voluptates.",
-        "deliverables": "highlight project outcomes",
-        "image": "./assets/ux-brainstorm.jpg",
-        "link":  "https://github.com/Ashton-Jeffrey/portfolio-project",
-        "projectno":  "project-1"
-
-      },
-      
-      {
-        "title": "Project 2",
-        "description": "Project description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime minus quod repellat facere sit? Illum eveniet iure quos optio iusto   officiis omnis, nesciunt, dignissimos quasi temporibus odit! Nulla, nihil odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam obcaecati quisquam commodi perspiciatis. Sit at quis quasi recusandae, ab voluptate consectetur eos similique minus, nemo non odit officia error voluptates.",
-        "deliverables": "highlight project 2 outcomes",
-        "image": "./assets/mobile-app.jpg",
-        "link":  "https://github.com/Ashton-Jeffrey/portfolio-project",
-        "projectno":  "project-2"
-      },
-      
-      {
-        "title": "Project 3",
-        "description": "Project description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime minus quod repellat facere sit? Illum eveniet iure quos optio iusto   officiis omnis, nesciunt, dignissimos quasi temporibus odit! Nulla, nihil odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam obcaecati quisquam commodi perspiciatis. Sit at quis quasi recusandae, ab voluptate consectetur eos similique minus, nemo non odit officia error voluptates.",
-        "deliverables": "highlight project 3 outcomes",
-        "image": "./assets/pencils.jpg",
-        "link":  "https://github.com/Ashton-Jeffrey/portfolio-project",
-        "projectno":  "project-3"
-      },
-
-      {
-        "title": "Project 4",
-        "description": "Project description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime minus quod repellat facere sit? Illum eveniet iure quos optio iusto   officiis omnis, nesciunt, dignissimos quasi temporibus odit! Nulla, nihil odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam obcaecati quisquam commodi perspiciatis. Sit at quis quasi recusandae, ab voluptate consectetur eos similique minus, nemo non odit officia error voluptates.",
-        "deliverables": "highlight project 4 outcomes",
-        "image": "./assets/sticky-notes.jpg",
-        "link":  "https://github.com/Ashton-Jeffrey/portfolio-project",
-        "projectno":  "project-4"
-      }
-    ]
-  }
+  "projects": [
+    {
+      "title": "React App",
+      "description": "Working in a scrum team using React.js we built a Job Search Board using a RESTful API. It allowed users to search for job postings using a search bar which enables you to filter your search by type of job and/or skill. I worked on the Search Bar component using HTML, CSS (Tailwind) and used context to manage state.",
+      "image": "./assets/ux-brainstorm.jpg",
+      "link": "https://24-honeybadgerbrigade-jobsearch.dev.io-academy.uk/",
+      "projectno": "project-1"
+    },
+    {
+      "title": "Project 2",
+      "description": "Project description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime minus quod repellat facere sit? Illum eveniet iure quos optio iusto   officiis omnis, nesciunt, dignissimos quasi temporibus odit! Nulla, nihil odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam obcaecati quisquam commodi perspiciatis. Sit at quis quasi recusandae, ab voluptate consectetur eos similique minus, nemo non odit officia error voluptates.",
+      "deliverables": "highlight project 2 outcomes",
+      "image": "./assets/mobile-app.jpg",
+      "link": "https://github.com/Ashton-Jeffrey/portfolio-project",
+      "projectno": "project-2"
+    },
+    {
+      "title": "Project 3",
+      "description": "Project description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime minus quod repellat facere sit? Illum eveniet iure quos optio iusto   officiis omnis, nesciunt, dignissimos quasi temporibus odit! Nulla, nihil odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam obcaecati quisquam commodi perspiciatis. Sit at quis quasi recusandae, ab voluptate consectetur eos similique minus, nemo non odit officia error voluptates.",
+      "deliverables": "highlight project 3 outcomes",
+      "image": "./assets/pencils.jpg",
+      "link": "https://github.com/Ashton-Jeffrey/portfolio-project",
+      "projectno": "project-3"
+    },
+    {
+      "title": "Project 4",
+      "description": "Project description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime minus quod repellat facere sit? Illum eveniet iure quos optio iusto   officiis omnis, nesciunt, dignissimos quasi temporibus odit! Nulla, nihil odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam obcaecati quisquam commodi perspiciatis. Sit at quis quasi recusandae, ab voluptate consectetur eos similique minus, nemo non odit officia error voluptates.",
+      "deliverables": "highlight project 4 outcomes",
+      "image": "./assets/sticky-notes.jpg",
+      "link": "https://github.com/Ashton-Jeffrey/portfolio-project",
+      "projectno": "project-4"
+    }
+  ]
+}
