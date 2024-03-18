@@ -15,7 +15,7 @@ fetch('js/portfolio.json').then(function (response) {
 
             <div class="flex flex-col justify-center basis-1/2 gap-10">
                 <div> 
-                    <a class="hover:text-pink-500" href="${project.link}" alt="link-to-project-github">Link to GitHub</a>
+                    <a class="hover:text-emerald-500" href="${project.link}" alt="link-to-project-github">Link to GitHub</a>
                 </div>
 
                 <div class="flex flex-col gap-1">
