@@ -3,7 +3,8 @@
     {
       "title": "React App",
       "description": "Working in a scrum team using React.js we built a Job Search Board using a RESTful API. It allowed users to search for job postings using a search bar which enables you to filter your search by type of job and/or skill. I worked on the Search Bar component using HTML, CSS (Tailwind) and used context to manage state.",
-      "image": "./assets/ux-brainstorm.jpg",
+      "deliverables": "highlight project 2 outcomes",
+      "image": "./assets/react-app-min.jpg",
       "link": "https://24-honeybadgerbrigade-jobsearch.dev.io-academy.uk/",
       "projectno": "project-1"
     },

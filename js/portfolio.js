@@ -6,8 +6,8 @@ fetch('js/portfolio.json').then(function (response) {
     return response.json()
 }).then(function (data) {
     data.projects.forEach(function (project) {
-    portfolioDisplay.innerHTML += 
-    `<div class="p-5 min-h-screen">
+        portfolioDisplay.innerHTML +=
+            `<div class="p-5 min-h-screen">
         <h3 class="text-8xl pb-10" id="${project.projectno}">
         ${project.title}
         </h3>
@@ -32,12 +32,12 @@ fetch('js/portfolio.json').then(function (response) {
                 </div>  
             </div> 
         </div>
-    </div>`    
-    
-    }) 
+    </div>`
+
+    })
     setTimeout(() => {
         const scrollTarget = document.querySelector(`#${requestedProject}`)
         scrollTarget.scrollIntoView()
-      }, 1);
-}) 
+    }, 1);
+})
 
